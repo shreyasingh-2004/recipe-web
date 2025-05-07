@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="img/images.jpeg" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="sticky-header">
+        <nav>
+            <div class="logo">FOODIE</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#indian">Indian Cuisine</a></li>
+                <li><a href="#chinese">Chinese Cuisine</a></li>
+                <li><a href="#italian">Italian Cuisine</a></li>
+                <li><a href="#sweets">Sweets</a></li>
+                <li><a href="#non-veg">Non veg Cuisine</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search recipes...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="img/hero.jpeg" alt="Hero Image" class="hero-image">
+        <div class="hero-content">
+            <h1>Discover Delicious Recipes</h1>
+            <p>Explore our collection of mouth-watering dishes from around the world</p>
+            <button class="explore-btn">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Indian Cuisine Section -->
+    <section id="indian" class="cuisine-section">
+        <h2>Indian Cuisine</h2>
+        <div class="recipe-cards">
+            <!-- Card 1 -->
+            <div class="recipe-card" data-recipe="dosa">
+                <img src="img/dosa.jpg" alt="dosa" class="card-image">
+                <h3>Dosa</h3>
+                <p>Dosa is crispy and thin often served hot, with chutney and sambar.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+            <!-- Card 2 -->
+            <div class="recipe-card" data-recipe="kadhai-paneer">
+                <img src="img/Kadhai_Paneer.webp" alt="Kadhai Paneer" class="card-image">
+                <h3>Kadhai Paneer</h3>
+                <p>Spicy cottage cheese cooked with bell peppers and aromatic spices.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="recipe-card" data-recipe="rajma-chawal">
+                <img src="img/rajma-chawal.jpeg" alt="Rajma Chawal" class="card-image">
+                <h3>Rajma Chawal</h3>
+                <p>Kidney beans curry served with steamed rice - a North Indian staple.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+            <!-- Card 4 -->
+            <div class="recipe-card" data-recipe="kadhi-pakoda">
+                <img src="img/Kadhi-pakora.jpg" alt="Kadhi Pakoda" class="card-image">
+                <h3>Kadhi Pakoda</h3>
+                <p>Yogurt-based curry with fried gram flour dumplings.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chinese Cuisine Section -->
+    <section id="chinese" class="cuisine-section">
+        <h2>Chinese Cuisine</h2>
+        <div class="recipe-cards">
+            <!-- Card 1 -->
+            <div class="recipe-card" data-recipe="Chilli potato">
+                <img src="img/chilly-potato.webp" alt="Chilli potato" class="card-image">
+                <h3>Chilli Potato</h3>
+                <p>Delicious chilli potato with a amazing taste to change your mood.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+            <!-- Card 2 -->
+            <div class="recipe-card" data-recipe="Noodles">
+                <img src="img/noodles.webp" alt="Noodles" class="card-image">
+                <h3>Noodles</h3>
+                <p>Stir-fried noodles with vegetables and your choice of protein.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="recipe-card" data-recipe="burger">
+                <img src="img/burger.jpg" alt="Burger" class="card-image">
+                <h3>Burger</h3>
+                <p>Juicy patty with fresh veggies and sauces between soft buns.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+            <!-- Card 4 -->
+            <div class="recipe-card" data-recipe="momos">
+                <img src="img/momos.webp" alt="Momos" class="card-image">
+                <h3>Momos</h3>
+                <p>Steamed or fried dumplings with flavorful fillings.</p>
+                <button class="view-recipe">View Recipe</button>
+            </div>
+        </div>
+    </section>
+        <!-- Italian Cuisine Section -->
+        <section id="italian" class="cuisine-section">
+            <h2>Italian Cuisine</h2>
+            <div class="recipe-cards">
+                <!-- Card 1 -->
+                <div class="recipe-card" data-recipe="pasta">
+                    <img src="img/pasta.jpeg" class="card-image">
+                    <h3>Pasta</h3>
+                    <p>Delicious pasta with a variety of sauces to choose from.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+                <!-- Card 2 -->
+                <div class="recipe-card" data-recipe="pizza">
+                    <img src="img/pizza.avif" alt="Chowmein" class="card-image">
+                    <h3>Pizza</h3>
+                    <p>Pizza is a popular dish, usually including tomatoes, cheese, and various toppings, baked until golden brown.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+                <!-- Card 3 -->
+                <div class="recipe-card" data-recipe="Garlic bread">
+                    <img src="img/garlic-bread.cms" alt="Garlic bread" class="card-image">
+                    <h3>Garlic Bread</h3>
+                    <p>This Garlic Bread recipe is made for making this favorite snack,super-duper easy, requires minimum efforts.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+            </div>
+        </section>
+        <!-- Sweets Cuisine Section -->
+        <section id="sweets" class="cuisine-section">
+            <h2>Sweets Cuisine</h2>
+            <div class="recipe-cards">
+                <!-- Card 1 -->
+                <div class="recipe-card" data-recipe="halwa">
+                    <img src="img/halwa.jpg" alt="Sooji Halwa" class="card-image">
+                    <h3>Sooji Halwa</h3>
+                    <p>A delicious Indian dessert made with semolina, ghee, and sugar.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+                <!-- Card 2 -->
+                <div class="recipe-card" data-recipe="Kaju barfi">
+                    <img src="img/Kaju-barfi.jpg" alt="Kaju barfi" class="card-image">
+                    <h3>Kaju Barfi</h3>
+                    <p>Kaju barfi is a sweet dish with a variety of ingredients that are really nutrious.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+                <!-- Card 3 -->
+                <div class="recipe-card" data-recipe="Rasmalai">
+                    <img src="img/rasmalai.webp" alt="Rasmalai" class="card-image">
+                    <h3>Rasmalai</h3>
+                    <p>Rasmalai is a creamy, sweet, and milky dessert with a soft, spongy texture.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+                <!-- Card 4 -->
+                <div class="recipe-card" data-recipe="Gulab jamun">
+                    <img src="img/gulab-jamun.jpg" alt="Gulab jamun" class="card-image">
+                    <h3>Gulab Jamun</h3>
+                    <p>Gulab jamun is famous Indian dessert and is enoyed in many festive and celebration meals.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+            </div>
+        </section>
+        <!-- Non-veg Cuisine Section -->
+        <section id="non-veg" class="cuisine-section">
+            <h2>Non-veg Cuisine</h2>
+            <div class="recipe-cards">
+                <!-- Card 1 -->
+                <div class="recipe-card" data-recipe="tandoori">
+                    <img src="img/tandoori-chicken.jpg" alt="Tandoori Chicken" class="card-image">
+                    <h3>Tandoori Chicken</h3>
+                    <p>A classic Indian dish with marinated chicken cooked in a tandoor.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div> 
+                <!-- Card 2 -->
+                <div class="recipe-card" data-recipe="Egg roll">
+                    <img src="img/egg-roll.jpg" alt="Egg roll" class="card-image">
+                    <h3>Egg Roll</h3>
+                    <p>Egg roll makes for a great meal option too and often, it’s go to when out of dinner ideas.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+                <!-- Card 3 -->
+                <div class="recipe-card" data-recipe="Chilli chicken">
+                    <img src="img/chilli-chicken.jpg" alt="Chilli chicken" class="card-image">
+                    <h3>Chilli Chickenr</h3>
+                    <p>Chilli chicken tender fried chicken bites tossed in a super aromatic sweet, spicy and slightly tangy chili sauce.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+                <!-- Card 4 -->
+                <div class="recipe-card" data-recipe="Fish fingers">
+                    <img src="img/fish-fingers.jpg" alt="Fish fingers" class="card-image">
+                    <h3>Fish Fingers</h3>
+                    <p>Swap plain cubes of toast for crisp, golden fish fingers sliced and add to soup for a fun finishing touch.</p>
+                    <button class="view-recipe">View Recipe</button>
+                </div>
+            </div>
+        </section>
+    <!-- Recipe Modal -->
+    <div class="recipe-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Recipe Title</h2>
+            <img src="" alt="Recipe Image" class="modal-image">
+            <div class="modal-body">
+                <h3>Ingredients</h3>
+                <ul class="ingredients-list"></ul>
+                <h3>Instructions</h3>
+                <ol class="instructions-list"></ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">DELICIOUS RECIPES</div>
+            
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#indian">Indian Cuisine</a></li>
+                    <li><a href="#chinese">Chinese Cuisine</a></li>
+                    <li><a href="#italian">Italian Cuisine</a></li>
+                    <li><a href="#sweets">Sweets Cuisine</a></li>
+                    <li><a href="non-veg">Non Veg Cuisine</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            
+            <div class="social-links">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Recipe Street, Food City, FC 12345</p>
+                <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@deliciousrecipes.com</p>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Delicious Recipes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
